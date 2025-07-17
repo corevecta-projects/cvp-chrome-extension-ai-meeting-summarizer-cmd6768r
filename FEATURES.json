@@ -1,0 +1,18 @@
+[
+  {
+    "id": "cmd69nyf00980qjqr8sa82ktj",
+    "blueprintId": "cmd69nyey097xqjqruovy2hkm",
+    "name": "Core AI Functionality",
+    "description": "Main feature implementing Chrome extension for sales teams that auto-transcribes and summarizes Google Meet/Zoom calls locally using WebRTC",
+    "type": "CORE",
+    "priority": "MUST_HAVE",
+    "complexity": "MODERATE",
+    "isMvp": true,
+    "dataFlow": null,
+    "dependencies": [],
+    "apiCalls": [],
+    "userValue": "Essential functionality",
+    "usageFrequency": "DAILY",
+    "createdAt": "2025-07-16T18:00:11.773Z"
+  }
+]

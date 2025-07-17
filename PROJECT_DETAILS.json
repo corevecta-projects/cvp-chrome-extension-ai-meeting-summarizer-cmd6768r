@@ -1,0 +1,58 @@
+{
+  "project": {
+    "id": "cmd6768rw02k8qjs9hyb7vnr5",
+    "name": "AI Meeting Summarizer",
+    "description": "Chrome extension for sales teams that auto-transcribes and summarizes Google Meet/Zoom calls locally using WebRTC. Elite because it solves the $50B/year meeting inefficiency problem with $19/month subscription model.",
+    "useCase": "Chrome extension for sales teams that auto-transcribes and summarizes Google Meet/Zoom calls locally using WebRTC",
+    "uniqueAngle": "Chrome extension for sales teams that auto-transcribes and summarizes Google Meet/Zoom calls locally using WebRTC. Elite because it solves the $50B/year meeting inefficiency problem with $19/month subscription model.",
+    "whyElite": " because it solves the $50B/year meeting inefficiency problem with $19/month subscription model",
+    "createdAt": "2025-07-16T16:50:26.156Z",
+    "updatedAt": "2025-07-16T17:05:30.047Z"
+  },
+  "platform": {
+    "id": "cmd67625g0001qjs96j6mufhc",
+    "name": "Chrome Extension",
+    "slug": "chrome-extension"
+  },
+  "category": {
+    "id": "cmd6768ru02k6qjs9sidl01be",
+    "name": "Chrome/Edge Productivity Extensions",
+    "slug": "chromeedge-productivity-extensions"
+  },
+  "targetUsers": [
+    {
+      "id": "cmd6768rx02k9qjs9zl1quqcn",
+      "slug": "sales-teams-1",
+      "name": "sales teams",
+      "description": null,
+      "createdAt": "2025-07-16T16:50:26.158Z",
+      "updatedAt": "2025-07-16T17:05:28.157Z"
+    }
+  ],
+  "tags": [
+    {
+      "id": "cmd67626l000dqjs943iviota",
+      "slug": "local-first",
+      "name": "Local-First",
+      "category": "FEATURE",
+      "createdAt": "2025-07-16T16:50:17.613Z",
+      "updatedAt": "2025-07-16T17:05:28.437Z"
+    },
+    {
+      "id": "cmd6768s102kaqjs9q711mv8y",
+      "slug": "webrtc",
+      "name": "WebRTC",
+      "category": "FEATURE",
+      "createdAt": "2025-07-16T16:50:26.161Z",
+      "updatedAt": "2025-07-16T17:05:28.441Z"
+    },
+    {
+      "id": "cmd6768s502kbqjs98i5p0v8t",
+      "slug": "subscription",
+      "name": "Subscription",
+      "category": "FEATURE",
+      "createdAt": "2025-07-16T16:50:26.166Z",
+      "updatedAt": "2025-07-16T17:05:28.443Z"
+    }
+  ]
+}

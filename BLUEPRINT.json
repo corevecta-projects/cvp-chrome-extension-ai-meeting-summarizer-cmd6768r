@@ -1,0 +1,281 @@
+{
+  "id": "cmd69nyey097xqjqruovy2hkm",
+  "projectId": "cmd6768rw02k8qjs9hyb7vnr5",
+  "analyzedAt": "2025-07-16T18:00:11.770Z",
+  "analysisVersion": "1.0",
+  "promptVersion": "1.0",
+  "featureSpecs": {
+    "coreFeatures": [
+      {
+        "name": "Core AI Functionality",
+        "description": "Main feature implementing Chrome extension for sales teams that auto-transcribes and summarizes Google Meet/Zoom calls locally using WebRTC",
+        "functionality": "Main feature implementing Chrome extension for sales teams that auto-transcribes and summarizes Google Meet/Zoom calls locally using WebRTC"
+      }
+    ],
+    "technicalSpecs": {
+      "platform": "Chrome Extension",
+      "offlineCapable": true,
+      "performanceTargets": {
+        "loadTime": "< 2s",
+        "responseTime": "< 100ms"
+      }
+    },
+    "advancedFeatures": []
+  },
+  "userStories": {
+    "edgeCases": [
+      {
+        "handling": "Full offline functionality",
+        "scenario": "No internet connection"
+      },
+      {
+        "handling": "Pagination and virtualization",
+        "scenario": "Large data sets"
+      }
+    ],
+    "accessibility": {
+      "wcagLevel": "AA",
+      "keyboardNav": "Full support",
+      "screenReader": "ARIA labels"
+    },
+    "primaryStories": [
+      {
+        "story": "As a sales teams, I want to Chrome extension for sales teams that auto-transcribes and summarizes Google Meet/Zoom calls locally using WebRTC",
+        "persona": "sales teams",
+        "acceptanceCriteria": [
+          "Feature works",
+          "Easy to use",
+          "Fast response"
+        ]
+      }
+    ]
+  },
+  "userFlows": {
+    "uiLayout": {
+      "structure": "Single page",
+      "responsive": true
+    },
+    "primaryJourney": [
+      "User opens app",
+      "Main functionality visible",
+      "User performs primary action",
+      "Result displayed",
+      "User can export/save"
+    ]
+  },
+  "implementation": {
+    "storage": "Local persistence",
+    "techStack": {
+      "storage": [
+        "chrome.storage.local"
+      ],
+      "language": "TypeScript",
+      "framework": "Vanilla JS",
+      "mlRuntime": null,
+      "uiLibrary": "Tailwind CSS",
+      "buildTools": [
+        "Webpack"
+      ]
+    },
+    "architecture": "Client-side only"
+  },
+  "monetization": {
+    "model": "Free",
+    "pricing": [
+      {
+        "tier": "FREE",
+        "price": 0,
+        "value": "Try before buying",
+        "limits": {
+          "usage": "Limited"
+        },
+        "features": [
+          "Basic features",
+          "Limited usage"
+        ],
+        "interval": null,
+        "targetPersona": "Casual users"
+      }
+    ],
+    "provider": "Paddle"
+  },
+  "extensibility": {
+    "plugins": true,
+    "customization": "Themes and settings"
+  },
+  "validation": {
+    "testing": "Unit and integration tests",
+    "coverage": "80% target"
+  },
+  "security": {
+    "privacy": "Zero telemetry",
+    "encryption": "Optional",
+    "dataStorage": "Local only"
+  },
+  "goToMarket": {
+    "channels": [
+      "ProductHunt",
+      "Reddit",
+      "Twitter"
+    ],
+    "positioning": "Chrome extension for sales teams that auto-transcribes and summarizes Google Meet/Zoom calls locally using WebRTC. Elite because it solves the $50B/year meeting inefficiency problem with $19/month subscription model.",
+    "differentiators": [
+      "Privacy-first",
+      "No subscriptions",
+      "Offline-first"
+    ]
+  },
+  "roadmap": {
+    "phases": [
+      {
+        "name": "Core Implementation",
+        "duration": "21 days",
+        "deliverables": [
+          "Core features",
+          "Basic UI",
+          "Local storage"
+        ]
+      },
+      {
+        "name": "Polish & Features",
+        "duration": "14 days",
+        "deliverables": [
+          "Advanced features",
+          "Themes",
+          "Performance optimization"
+        ]
+      }
+    ]
+  },
+  "createdAt": "2025-07-16T18:00:11.770Z",
+  "updatedAt": "2025-07-16T18:00:11.770Z",
+  "techStack": {
+    "id": "cmd69nyez097zqjqr49zogf2r",
+    "blueprintId": "cmd69nyey097xqjqruovy2hkm",
+    "framework": "Vanilla JS",
+    "language": "TypeScript",
+    "buildTools": [
+      "Webpack"
+    ],
+    "storage": [
+      "chrome.storage.local"
+    ],
+    "mlRuntime": null,
+    "uiLibrary": "Tailwind CSS",
+    "loadTimeTarget": 2000,
+    "memoryLimit": 256,
+    "offlineStorage": 500,
+    "createdAt": "2025-07-16T18:00:11.772Z"
+  },
+  "features": [
+    {
+      "id": "cmd69nyf00980qjqr8sa82ktj",
+      "blueprintId": "cmd69nyey097xqjqruovy2hkm",
+      "name": "Core AI Functionality",
+      "description": "Main feature implementing Chrome extension for sales teams that auto-transcribes and summarizes Google Meet/Zoom calls locally using WebRTC",
+      "type": "CORE",
+      "priority": "MUST_HAVE",
+      "complexity": "MODERATE",
+      "isMvp": true,
+      "dataFlow": null,
+      "dependencies": [],
+      "apiCalls": [],
+      "userValue": "Essential functionality",
+      "usageFrequency": "DAILY",
+      "createdAt": "2025-07-16T18:00:11.773Z"
+    }
+  ],
+  "userPersonas": [
+    {
+      "id": "cmd69nyf10981qjqraqbckpzo",
+      "blueprintId": "cmd69nyey097xqjqruovy2hkm",
+      "name": "sales teams",
+      "description": "Primary user type: sales teams",
+      "type": "PRIMARY",
+      "profession": "sales teams",
+      "experience": "5+ years",
+      "techSavvy": "INTERMEDIATE",
+      "primaryGoals": [
+        "Use AI Meeting Summarizer",
+        "Save time",
+        "Improve workflow"
+      ],
+      "painPoints": [
+        "Current tools are complex",
+        "Privacy concerns",
+        "Subscription fatigue"
+      ],
+      "jobsToBeDone": [
+        "Chrome extension for sales teams that auto-transcribes and summarizes Google Meet/Zoom calls locally using WebRTC"
+      ],
+      "usageContext": "Browser",
+      "frequency": "DAILY",
+      "createdAt": "2025-07-16T18:00:11.774Z"
+    }
+  ],
+  "pricePoints": [
+    {
+      "id": "cmd69nyf20982qjqrxcjueixf",
+      "blueprintId": "cmd69nyey097xqjqruovy2hkm",
+      "tier": "FREE",
+      "price": 0,
+      "currency": "USD",
+      "interval": null,
+      "features": [
+        "Basic features",
+        "Limited usage"
+      ],
+      "limits": {
+        "usage": "Limited"
+      },
+      "targetPersona": "Casual users",
+      "value": "Try before buying",
+      "createdAt": "2025-07-16T18:00:11.775Z"
+    }
+  ],
+  "competitors": [],
+  "milestones": [
+    {
+      "id": "cmd69nyf30983qjqr0ij5tmbv",
+      "blueprintId": "cmd69nyey097xqjqruovy2hkm",
+      "phase": "MVP",
+      "name": "Core Implementation",
+      "description": "Basic AI Meeting Summarizer functionality",
+      "weekNumber": 1,
+      "duration": 21,
+      "deliverables": [
+        "Core features",
+        "Basic UI",
+        "Local storage"
+      ],
+      "successCriteria": [
+        "All core features working",
+        "Responsive design"
+      ],
+      "dependencies": [],
+      "createdAt": "2025-07-16T18:00:11.776Z"
+    },
+    {
+      "id": "cmd69nyf30984qjqra9fnhtv9",
+      "blueprintId": "cmd69nyey097xqjqruovy2hkm",
+      "phase": "ENHANCEMENT",
+      "name": "Polish & Features",
+      "description": "UI polish and additional features",
+      "weekNumber": 4,
+      "duration": 14,
+      "deliverables": [
+        "Advanced features",
+        "Themes",
+        "Performance optimization"
+      ],
+      "successCriteria": [
+        "Load time < 2s",
+        "All features tested"
+      ],
+      "dependencies": [
+        "Core Implementation"
+      ],
+      "createdAt": "2025-07-16T18:00:11.776Z"
+    }
+  ]
+}
